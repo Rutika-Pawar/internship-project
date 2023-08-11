@@ -1,0 +1,92 @@
+.status-card {
+	height: 112px;
+	width: 100%;
+	border-radius: 16px;
+
+	/* Primary/Blue */
+
+	border-radius: 16px;
+}
+
+.title-status-card {
+	position: absolute;
+
+	/* 14 Semibold */
+
+	//font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+
+	/* Black/100% */
+
+	color: $brand;
+	padding-left: 24px;
+	padding-top: 24px;
+}
+
+.value-status-card {
+	// position: absolute;
+	width: 45px;
+	height: 36px;
+	left: 24px;
+	top: 52px;
+
+	/* 24 Semibold */
+
+	// font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height, or 150% */
+	padding-left: 24px;
+	padding-top: 52px;
+}
+
+.bottom-status-card {
+	display: flex;
+}
+
+.per-status-card {
+	width: 45px;
+	height: 18px;
+
+	/* 12 Regular */
+
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height, or 150% */
+
+	display: flex;
+	align-items: center;
+	text-align: right;
+
+	/* Black/100% */
+	padding-top: 60px;
+	color: $brand;
+	padding-left: 15%;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.svg-status-card {
+	padding-left: 5px;
+}
+
+.loadingSvg-status-card {
+	display: flex;
+	padding-left: 21px;
+	padding-top: 62px;
+}
+
+.loadingSvg2-status-card {
+	padding-left: 8px;
+}

@@ -1,0 +1,63 @@
+@import './variables';
+.form-parent-component {
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    box-sizing: border-box;
+    padding: 1.6% 2.0%;
+    gap: 4px;
+    width: 100%;
+    // height: 10vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3); // use variable instead of this.
+    border-radius: 8px;  
+}
+
+.form-parent-component-box{
+    display: flex;
+    flex-direction: column;
+	align-items: flex-start;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    gap: 4px;
+    // height: 250px;
+    width: 100%;
+    // left: 97px;
+    // right: 184px;
+    // top: 278px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+    .form-title-component {
+        width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+        color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 4px;
+    
+    }
+
+    .form-text-component {
+        width: 100%;
+        // height: 20px;
+        font-family: 'Inter-regular';
+        font-size: 14px;
+        line-height: 20px;
+        color: #1C1C1C;
+        align-self: stretch;
+
+        .input-discription {
+            width: 100%;
+            border: none;
+            background-color: #FFFFFF;
+            &:focus{
+                outline: none;
+            }
+    
+        }
+        
+    }

@@ -1,0 +1,102 @@
+.heading-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 44px;
+	align-items: center;
+	box-sizing: border-box;
+}
+.heading {
+	margin: 11px 33px;
+	font-weight: 400;
+	font-size: 30px;
+}
+.notice-search {
+	margin: 19px 33px;
+}
+.create-btn {
+	margin-top: 20px;
+	background: #e3f5ff;
+	border: 0.5px solid #cacaca;
+	border-radius: 8px;
+	font-weight: 500;
+	font-size: 18px;
+	gap: 14px;
+	display: flex;
+	padding: 8px 16px;
+	height: 44px;
+	cursor: pointer;
+	color: #1c1c1c;
+}
+
+.notice-button {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px;
+}
+
+.notice-card {
+	margin: 21px 34px;
+	width: 90%;
+	background: $notice-card-background;
+	&:hover {
+		background-color: $notice-card-border; /* Replace with your desired background color */
+	}
+	border: 1px solid $notice-card-border;
+	border-radius: 8px;
+	padding: 16px 24px;
+	position: relative;
+	.notice-actions-top-right {
+		display: flex;
+		position: absolute;
+		top: 20px;
+		right: 18px;
+	}
+	.notice-title {
+		display: flex;
+		align-items: center;
+		color: $black;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.notice-reader {
+		padding: 0px 5px;
+		font-weight: bold;
+		color: $notice-dot;
+		font-size: 35px;
+		display: flex;
+		justify-content: center;
+	}
+	.notice-status {
+		font-size: 14px;
+		color: $black;
+		padding-left: 8px;
+	}
+	.notice-msg {
+		width: 90%;
+		min-height: 50px;
+		font-weight: 300;
+		&::first-letter {
+			font-size: 24px;
+		}
+		color: $black;
+	}
+}
+
+.notice-pub {
+	display: flex;
+	.notice-actions-bottom-right {
+		position: absolute;
+		bottom: 16px;
+		right: 18px;
+	}
+	.notice-views {
+		font-weight: 400;
+		font-size: 14px;
+		color: $notice-card-views;
+	}
+	.notice-date {
+		font-weight: 300;
+		font-size: 16px;
+		color: $notice-card-date;
+	}
+}

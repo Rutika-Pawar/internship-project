@@ -1,0 +1,52 @@
+.activity-container {
+	display: flex;
+	margin-top: 4px;
+	margin-left: 200px;
+}
+
+.vertical-line {
+	margin-top: 2px;
+	border-left: 1px solid $primary-text-color-disabled;
+	height: 14px;
+	margin-left: 50%;
+}
+
+.activity-details {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 200px;
+	height: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 8px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.activity-time {
+	width : 200px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 8px;
+	color: $notification-time;
+	height: 18px;
+	font-weight: 400;
+	font-size : 12px;
+}
+
+.activity-image {
+	margin-top: 2px;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+}
+
+.vertical-line-hide{
+	display: none;
+	margin-top: 0px;
+	border-left: 1px solid $primary-text-color-disabled;
+	height: 14px;
+	margin-left: 10px;
+}

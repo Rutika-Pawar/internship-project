@@ -1,0 +1,36 @@
+@import './variables';
+
+.breadcrumb-parent-component {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.breadcrumb-dashboard-component {
+	width: 80px;
+	font-style: normal;
+	font-family: 'Inter';
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.breadcrumb-symbol-component {
+	//margin-right: 12px;
+	color: rgba(0, 0, 0, 0.4);
+	margin: 0px 12px;
+}
+
+.breadcrumb-component {
+	text-transform: capitalize;
+	align-items: center;
+	font: inner;
+	display: flex;
+	flex-direction: row;
+}

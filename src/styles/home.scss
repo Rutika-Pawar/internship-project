@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    padding-inline: 28px;
+    flex-direction: column;
+    gap: 40px;
+    .attendance-stats-block {
+        padding-top: 88px;
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .performance-graph {
+        display: 'flex';
+        justify-content: center;
+        width: '90%';
+        height: 320;
+    }
+    .attendance-block {
+        display: flex;
+        gap: 28px;
+    }
+}

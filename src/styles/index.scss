@@ -1,0 +1,33 @@
+@import './font.scss';
+@import './buttons.scss';
+@import './iconButton.scss';
+@import './sidebar.scss';
+@import './navbar.scss';
+@import './statusCard.scss';
+@import './RecentAttendanceBlock.scss';
+@import './searchBox.scss';
+@import './breadCrimb.scss';
+@import './home.scss';
+@import './teacherProfile.scss';
+@import './dashboard.scss';
+@import './Notifications.scss';
+@import './activity.scss';
+@import './contacts.scss';
+@import'./noticecard.scss';
+@import'./noticebar.scss';
+@import './dialog.scss';
+@import './formText.scss';
+@import './checkBox.scss';
+@import './expireDate.scss';
+@import './createNotice.scss';
+@import './bulkbuttons.scss';
+
+*{
+    font-family: 'Inter-Regular';
+    margin: 0px;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}

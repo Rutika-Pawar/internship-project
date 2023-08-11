@@ -1,0 +1,22 @@
+[
+    {
+        "notificationImage" : "https://media.istockphoto.com/id/1307886792/photo/yellow-notification-bell-with-one-new-notification-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=rZiUXMWFAtl6e44FR9mBRwFE5tKNHsLbemIW2_2Bwa0=",
+        "notificaftionText" : "you have a bug in your code",
+        "notificationTime" : "Just now"
+    },
+    {
+        "notificationImage" : "https://media.istockphoto.com/id/1307886792/photo/yellow-notification-bell-with-one-new-notification-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=rZiUXMWFAtl6e44FR9mBRwFE5tKNHsLbemIW2_2Bwa0=",
+        "notificaftionText" : "utkarsh viewed your profile",
+        "notificationTime" : "2 hr ago"
+    },
+    {
+        "notificationTmage" : "https://media.istockphoto.com/id/1307886792/photo/yellow-notification-bell-with-one-new-notification-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=rZiUXMWFAtl6e44FR9mBRwFE5tKNHsLbemIW2_2Bwa0=",
+        "notificaftionText" : "Nilesh Sachan wants to connect",
+        "notificationTime" : "3 hrs ago"
+    },
+    {
+        "notificationImage" : "https://media.istockphoto.com/id/1307886792/photo/yellow-notification-bell-with-one-new-notification-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=rZiUXMWFAtl6e44FR9mBRwFE5tKNHsLbemIW2_2Bwa0=",
+        "notificaftionText" : "A meeting is scheduled after 15 mints",
+        "notificationTime" : "5 hrs ago"
+    }
+]

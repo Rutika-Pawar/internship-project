@@ -1,0 +1,32 @@
+.notice-bar-items {
+    display: flex;
+    position: relative;
+    list-style: none; 
+    font-size: 22px;
+    gap: 10px;
+    min-width: 100px;
+    padding: 0 0px;
+    // box-sizing: border-box;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.notice-bar-items li:nth-child(6) {
+    color: black;
+    margin-left: auto;
+    
+}
+
+.notice-bar-items li {
+    position: relative;
+    padding: 10px 15px ;
+    padding-left: 25px;
+    
+}
+
+.selected {
+     border-bottom: 2px solid  #007AFF;
+  }
+  

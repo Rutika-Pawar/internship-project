@@ -1,0 +1,31 @@
+.box {
+  width: 100%;
+  border: #F4F3FF;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  // margin-right: '5px'    
+}
+
+.outer-box {
+  width: 100%;
+  // margin: 20px auto;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  border: 0.5px solid #B7B7B7;
+  // margin-right: '5px';
+
+  .publish:hover {
+    border-bottom: none;
+  }
+
+}
+
+.publish {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  margin-left: 15px;
+}

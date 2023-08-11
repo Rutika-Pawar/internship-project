@@ -1,0 +1,37 @@
+@import './variables';
+
+.sidebar {
+	width: 15%;
+	min-width: 15%;
+	height: 100vh;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+	background: $white;
+	border-right: 1px solid $primary-text-color-disabled;
+}
+
+.right-sidebar {
+	width: 20%;
+	height: 100vh;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+	background: $white;
+	border-left: 1px solid $primary-text-color-disabled;
+}
+
+.sidebar-item {
+	width: 90%;
+	display: flex;
+	gap: 12px;
+	padding: 12px;
+	&:hover {
+		background-color: $brand-on-disabled;
+	}
+}
+
+.active {
+	display: flex;
+	background-color: $brand-on-disabled;
+}

@@ -1,0 +1,223 @@
+@import './variables';
+
+.btn {
+	cursor: pointer;
+	width: max-content;
+}
+
+/* integate scss module */
+.primary-medium-default  {
+        @extend .btn;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        height: 28px;
+        
+        /* Primary/Brand */
+        background: $brand;
+        border-radius: 8px;
+        color: $white;
+        &:hover {
+         background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) $brand;
+        }
+        .disabled {
+          cursor: not-allowed;
+        }
+        &:disabled {
+         cursor: not-allowed;
+         opacity: 0.5;
+        }
+}
+.primary-medium-default-notice{
+        @extend .primary-medium-default;
+        background: $white;
+        &:hover {
+                background: $notice-button;
+               }
+
+        border: 1px solid $notice-button;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        height: 42px;
+        max-width: 72;
+        padding: 11px 24px;
+        font-weight: 400;
+        font-size: 20px;
+        color:$black;
+        margin: 33px 0px 0px 33px;
+
+}
+.primary-medium-default-notice-active{
+        @extend .primary-medium-default;
+        background: $notice-button;
+        &:hover {
+                background: $notice-button;
+               }
+
+        border: 1px solid $notice-button;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        height: 42px;
+        max-width: 72;
+        padding: 11px 24px;
+        font-weight: 400;
+        font-size: 20px;
+        color:$black;
+        margin: 33px 0px 0px 33px;
+
+}
+
+
+
+
+.primary-medium-default-disabled{
+        @extend .btn ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        height: 28px;        
+        /* Primary/Brand */
+        background: $brand;
+        border-radius: 8px;
+        color: $white;
+        .disabled {
+          cursor: not-allowed;
+        }
+        &:disabled {
+         cursor: not-allowed;
+         opacity: 0.5;
+        }
+}
+
+.secondary-medium-default{
+        @extend .btn;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+     
+        height: 28px;
+        border: none;
+        background: $brand-on-disabled;
+        border-radius: 8px;
+        
+        &:hover{
+                background-color: $primary-text-color-disabled  ;
+        }
+}
+
+.secondary-medium-default-disabled{
+        @extend .secondary-medium-default , .btn ;
+        cursor: not-allowed;
+        background-color:  $brand-on-disabled;
+        color: $primary-text-color-disabled;
+        &:hover:disabled {
+        background-color:  $brand-on-disabled;     
+            }
+}
+
+.medium-outline-default{
+        @extend .btn;
+        cursor : pointer;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        background: none;
+        border: 1px solid $primary-text-color-disabled;
+        color: black;
+        border-radius: 8px;
+        &:hover{
+                border: 1px solid $outline-button-color;
+        }
+     
+}       
+.medium-outline-default-disabled{
+       @extend .medium-outline-default , .btn;
+       color: $primary-text-color-disabled;
+       border: 1px solid  $primary-text-color-disabled;
+        cursor: not-allowed;
+        &:hover:disabled{
+                border: 1px solid $primary-text-color-disabled;
+                color: $primary-text-color-disabled;
+        }
+}
+
+.medium-ghost-default{
+        @extend .btn;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        border-radius: 8px;
+        border: none;
+        background :none;
+        
+}
+.medium-ghost-default-disabled{
+        @extend .medium-ghost-default , .btn;
+        cursor: not-allowed;
+        color: $primary-text-color-disabled;
+        &:hover:disabled{
+                background: none;
+        }
+}
+
+.primary-large-default{
+        @extend .primary-medium-default ,.btn;
+        padding: 8px 16px;
+        width: 91px;
+        height: 44px;    
+}
+
+.primary-large-default-disabled{
+        @extend .primary-medium-default-disabled ,.btn;
+        padding: 8px 16px;
+
+        height: 44px;  
+}
+
+.secondary-large-default{
+        @extend .secondary-medium-default , .btn;
+        height: 44px;
+
+}
+
+.secondary-large-default-disabled{
+        @extend .secondary-medium-default-disabled , .btn;
+        height: 44px;
+}
+
+.large-outline-default{
+        @extend .medium-outline-default ,.btn;
+        height: 44px;
+}
+
+.large-outline-default-disabled{
+        @extend .medium-outline-default-disabled ,.btn;
+        height: 44px;
+}
+
+.large-ghost-default{
+        @extend .medium-ghost-default , .btn;
+        height: 44px;
+}
+.large-ghost-default-disabled{
+        @extend .medium-ghost-default-disabled , .btn;
+        height: 44px;
+}

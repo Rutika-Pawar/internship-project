@@ -1,0 +1,35 @@
+[
+    
+    {
+        "activity" : "Utkarsh Pinged you" ,
+        "timeUpdate" : "5 hr ago",
+        "imageAddress"  : "./femaleUser.png"  
+    } ,
+    {
+        "activity" : "Ayush Updated their Profile Picture" ,
+        "timeUpdate" : "10 hr ago",
+        "imageAddres"  : "./woman.png"  
+    },
+    {
+        "activity" : "Student has reported a doubt" ,
+        "timeUpdate" : "Yesterday",
+        "imageAddress"  : "./woman.png"  
+    }
+    ,
+    {
+        "activity" : "Someone did Something" ,
+        "timeUpdate" : "7 hr ago",
+        "imageAddress"  : "./woman.png"  
+    },
+    {
+        "activity" : "Noone did nothing" ,
+        "timeUpdate" : "10 hr ago",
+        "imageAddress"  : "./woman.png"  
+    },
+    {
+        "activity" : "some anonymous guy is accesing the DB" ,
+        "timeUpdate" : " Just now",
+        "imageAddress"  : "./woman.png"  
+    }
+]
+ 

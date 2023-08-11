@@ -1,0 +1,60 @@
+.primary-medium-default-success{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+color: $white;
+//position: absolute;
+width: max-content;
+height: 40px;
+font-size: 14px;
+
+
+/* Primary/#333 */
+
+background: $primaryGrey;
+/* Layer Shadow DDDDD */
+
+border-radius: 8px;
+}
+
+.primary-small-default-success{
+    @extend .primary-medium-default ;
+   
+    height: 26px;
+    font-size: 12px;
+}
+
+.primary-medium-default-warning{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+//position: absolute;
+width: max-content;
+height: 40px;
+left: 20px;
+top: 80px;
+font-size: 14px;
+
+/* Primary/#333 */
+color: $white;
+background: $primaryGrey;
+/* Layer Shadow DDDDD */
+
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+.primary-small-default-warning{
+    @extend.primary-medium-default-warning;
+    height: 26px;
+    
+    font-size: 12px;
+}
+
+
+

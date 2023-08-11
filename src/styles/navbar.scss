@@ -1,0 +1,30 @@
+@import './variables';
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 28px;
+    /* White/100% */
+    background: $white;
+    /* Black/10% */
+    height: 72px;
+    top: 0px;
+    /* White/100% */
+    background: $white;
+    /* Black/10% */
+    border-bottom: 1px solid $primary-text-color-disabled;
+}
+
+.right-navbar {
+    display: flex;
+    gap: 8px;
+}
+
+.left-navbar {
+    display: flex;
+    gap: 8px;
+
+}
